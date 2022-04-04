@@ -17,6 +17,8 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
+import { ShippingComponent } from './components/shipping/shipping.component';
+import { FeatureComponent } from './components/feature/feature.component';
 
 
 ;
@@ -30,6 +32,8 @@ import { MatInputModule } from '@angular/material/input';
     ShoppingComponent,
     LoginComponent,
     SignupComponent,
+    ShippingComponent,
+    FeatureComponent
 
   ],
   imports: [
