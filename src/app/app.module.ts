@@ -8,6 +8,18 @@ import { SearchBarComponent } from './components/search-bar/search-bar.component
 import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './components/home/home.component';
 import { ShoppingComponent } from './components/shopping/shopping.component';
+import { LoginComponent } from './components/login/login.component';
+import { SignupComponent } from './components/signup/signup.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatIconModule } from '@angular/material/icon';
+import { MatButtonModule } from '@angular/material/button';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { ShippingComponent } from './components/shipping/shipping.component';
+import { FeatureComponent } from './components/feature/feature.component';
+
 
 ;
 
@@ -18,12 +30,24 @@ import { ShoppingComponent } from './components/shopping/shopping.component';
     HeaderComponent,
     HomeComponent,
     ShoppingComponent,
+    LoginComponent,
+    SignupComponent,
+    ShippingComponent,
+    FeatureComponent
 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatToolbarModule,
+    MatButtonModule,
+    MatIconModule,
+    MatFormFieldModule,
+    MatInputModule,
+    ReactiveFormsModule,
+    HttpClientModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

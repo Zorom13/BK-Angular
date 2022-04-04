@@ -51,13 +51,13 @@ nav .navbar .navbar-brand {
 
 #book:hover {
   border-color: #f4a261;
-  color: white;
-  box-shadow: 0 0.5em 0.5em -0.4em #f4a261;
+  color: rgb(182, 66, 66);
+  box-shadow: 0 0.5em 0.5em -0.3em #f4a261;
   transform: translateY(-0.25em);
 }
 
 #book {
-  /* text-transform: uppercase; */
+  text-transform: uppercase;
   color: #b35867be;
 }
 
@@ -65,7 +65,7 @@ nav .navbar .navbar-brand {
   font-family: "Dancing Script", cursive;
   font-weight: 300;
   font-size: 4rem;
-  border-radius: 1rem;
+  /* border-radius: 1rem; */
 }
 
 #logo-text {
@@ -97,3 +97,60 @@ nav ul li .nav-link {
   letter-spacing: 2px;
   font-size: 1.3rem;
 }
+
+/* content Section Start */
+
+.content-container {
+  width: 30%;
+  height: 110%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  /* margin-top:150px; */
+  padding-top: 200px;
+  padding-left: 50px;
+  position: relative;
+}
+
+.content-text {
+  text-align: start;
+  max-width: 500px;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.content-text h1 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin: 30px 0;
+}
+
+.content-text h1 span {
+  font-size: 6rem;
+}
+
+.content-text p {
+  margin: 20px 0;
+  font-size: 20px;
+  font-weight: 300;
+  color: rgb(255, 255, 255);
+}
+
+.content-text p span {
+  color: #d6000d;
+  font-size: 2rem;
+}
+
+.content-container .btn {
+  /* color: #000; */
+  background-color: #ffc107;
+}
+/*
+.content-text p span:hover {
+  border-color: #f1ff5c;
+  color: white;
+  box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+  transform: translateX(-0.25em);
+} */
