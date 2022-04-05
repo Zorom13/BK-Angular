@@ -19,6 +19,8 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { ShippingComponent } from './components/shipping/shipping.component';
 import { FeatureComponent } from './components/feature/feature.component';
+import { FooterComponent } from './components/footer/footer.component';
+
 
 
 ;
@@ -33,7 +35,8 @@ import { FeatureComponent } from './components/feature/feature.component';
     LoginComponent,
     SignupComponent,
     ShippingComponent,
-    FeatureComponent
+    FeatureComponent,
+    FooterComponent
 
   ],
   imports: [
