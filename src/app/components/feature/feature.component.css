@@ -14,7 +14,7 @@
 .featured .heading {
   font-size: 2.5rem;
   font-weight: 400;
-  margin: 30px 800px;
+  margin: 100px 800px;
 }
 
 .featured .featured-slider .content .btn:hover {
@@ -49,6 +49,7 @@
 
 .wrapper {
   display: flex;
+  /* padding-top: -100px; */
   flex: 1;
   justify-content: center;
   left: 2rem;
@@ -100,7 +101,11 @@
 }
 
 .featured .featured-slider .box-book .image {
-  padding: 8rem;
+  padding: 2rem;
+  background: linear-gradient(30deg, rgb(243, 183, 94) 15%, #fff 30.5%);
+}
+
+.featured .featured-slider .box-book .image:hover {
   background: linear-gradient(30deg, rgb(243, 183, 94) 15%, #fff 30.5%);
 }
 
