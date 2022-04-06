@@ -38,6 +38,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: rgba(86, 86, 86, 0.507);
 
   font-size: 1.6rem;
 }
