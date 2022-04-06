@@ -93,11 +93,11 @@
   border-radius: 0.9rem;
   margin: 0.5rem;
   text-align: center;
-  background-color: #6a8da0;
+  /* background-color: #6a8da0; */
 }
 
 .featured .featured-slider .box-book:hover {
-  border: 1px solid #202c32;
+  border: 0px solid #202c32;
 }
 
 .featured .featured-slider .box-book .image {
@@ -110,7 +110,8 @@
 }
 
 .featured .featured-slider .box-book:hover .image {
-  transform: translateY(6%);
+  transform: translateY(10%);
+  transition: 0.4s;
 }
 
 .featured .featured-slider .box-book .image .discount-tag {
@@ -130,7 +131,7 @@
 }
 
 .featured .featured-slider .box-book .icons {
-  border-bottom: 1px solid #202c32;
+  border-bottom: 0px solid #202c32;
   position: absolute;
   top: 0;
   left: 0;
